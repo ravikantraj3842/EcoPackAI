@@ -5,3 +5,37 @@ recommends optimal eco-friendly options.
 ## Tech Stack 
 Python | Flask | PostgreSQL | HTML/CSS/Bootstrap | XGBoost | Random Forest | Plotly | 
 GitHub Actions 
+ ┌──────────────────┐
+ │     Frontend     │
+ │ HTML/CSS/JS Form │
+ └─────────┬────────┘
+           │ User Input
+           ▼
+ ┌────────────────────┐
+ │   Flask Backend    │
+ │ (API Endpoints)    │
+ └───────┬────────────┘
+         │ JSON Request
+         ▼
+ ┌───────────────────────┐
+ │ AI Recommendation     │
+ │ Engine (ML Model)     │
+ └────────┬──────────────┘
+          │ Fetch Material Data
+          ▼
+ ┌──────────────────────┐
+ │ PostgreSQL Database  │
+ │ (Sustainability data)│
+ └────────┬─────────────┘
+          │ Ranked Output
+          ▼
+ ┌─────────────────────┐
+ │  Results UI         │
+ │ Recommendations     │
+ └────────┬────────────┘
+          │ Logs data
+          ▼
+ ┌──────────────────────┐
+ │ BI Dashboard         │
+ │ CO₂ & Cost Analytics │
+ └──────────────────────┘
